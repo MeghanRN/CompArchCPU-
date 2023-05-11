@@ -1,3 +1,17 @@
+`include "mr_chips\components\alu.sv"
+`include "mr_chips\components\clk.sv"
+`include "mr_chips\components\decoder.sv"
+`include "mr_chips\components\adder.sv"
+
+module mr_chips (
+    input [15:0] instruction,
+    output [7:0] rd
+
+);
+    decoder uut(instuction);
+
+endmodule
+
 `ifdef decoder
 `define decoder
 

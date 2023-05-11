@@ -1,6 +1,6 @@
 // This code defines an Arithmetic Logic Unit (ALU) module using Verilog.
 
-`ifndef alu
+`ifdef alu
 `define alu
 
 module alu(a,b, funct, result);
