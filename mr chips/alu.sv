@@ -4,7 +4,7 @@
 module alu(
 
    input [15:0] a,
-   input b,
+   input [15:0] b,
    input [2:0] alu_control,
    output reg [15:0] result,
    output zero
