@@ -27,12 +27,12 @@ always @(*)
 	       bigreg[7:0] = a/b;
 	       bigreg[15:8] = a%b;
 	    end
-            3'b110: result = bigreg[15:8];
-            3'b111: result = bigreg[7:0];
+            3'b110: result = bigreg[31:15];
+            3'b111: result = bigreg[15:0];
             default:result = a + b; // add  
         endcase
     end //
-   
-endmodule    
+ assign zero = (result==16'd0) ? 1'b1: 1'b0;  
+ endmodule 
 
 `endif //alu
