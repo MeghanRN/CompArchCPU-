@@ -8,8 +8,7 @@ module alu(
       output     reg     [15:0]     result,          //result       
       output zero  
    );  
- always @(*)  //fpga4student.com: FPga projects, Verilog projects, VHDL projects
- begin   
+ always @(*)
       case(alu_control)  
       3'b000: result = a + b; // add  
       3'b001: result = a - b; // sub  
