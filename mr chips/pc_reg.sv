@@ -1,41 +1,41 @@
-`ifndef PC_Reg
-`define PC_Reg
-module PC_Reg(PCOut,PCin,reset,clk);  
- output [31:0] PCOut;  
- input [31:0] PCin;  
- input reset,clk;  
- D_FF dff0(PCOut[0],PCin[0],reset,clk);  
- D_FF dff1(PCOut[1],PCin[1],reset,clk);  
- D_FF dff2(PCOut[2],PCin[2],reset,clk);  
- D_FF dff3(PCOut[3],PCin[3],reset,clk);  
- D_FF dff4(PCOut[4],PCin[4],reset,clk);  
- D_FF dff5(PCOut[5],PCin[5],reset,clk);  
- D_FF dff6(PCOut[6],PCin[6],reset,clk);  
- D_FF dff7(PCOut[7],PCin[7],reset,clk);  
- D_FF dff8(PCOut[8],PCin[8],reset,clk);  
- D_FF dff9(PCOut[9],PCin[9],reset,clk);  
- D_FF dff10(PCOut[10],PCin[10],reset,clk);  
- D_FF dff11(PCOut[11],PCin[11],reset,clk);  
- D_FF dff12(PCOut[12],PCin[12],reset,clk);  
- D_FF dff13(PCOut[13],PCin[13],reset,clk);  
- D_FF dff14(PCOut[14],PCin[14],reset,clk);  
- D_FF dff15(PCOut[15],PCin[15],reset,clk);  
- D_FF dff16(PCOut[16],PCin[16],reset,clk);  
- D_FF dff17(PCOut[17],PCin[17],reset,clk);  
- D_FF dff18(PCOut[18],PCin[18],reset,clk);  
- D_FF dff19(PCOut[19],PCin[19],reset,clk);  
- D_FF dff20(PCOut[20],PCin[20],reset,clk);  
- D_FF dff21(PCOut[21],PCin[21],reset,clk);  
- D_FF dff22(PCOut[22],PCin[22],reset,clk);  
- D_FF dff23(PCOut[23],PCin[23],reset,clk);  
- D_FF dff24(PCOut[24],PCin[24],reset,clk);  
- D_FF dff25(PCOut[25],PCin[25],reset,clk);  
- D_FF dff26(PCOut[26],PCin[26],reset,clk);  
- D_FF dff27(PCOut[27],PCin[27],reset,clk);  
- D_FF dff28(PCOut[28],PCin[28],reset,clk);  
- D_FF dff29(PCOut[29],PCin[29],reset,clk);  
- D_FF dff30(PCOut[30],PCin[30],reset,clk);  
- D_FF dff31(PCOut[31],PCin[31],reset,clk);  
+`ifndef Reg16_32
+`define Reg16_32
+module Reg16_32(out,in,rst,clk);  
+ output [31:0] out;  
+ input [31:0] in;  
+ input rst,clk;  
+ D_FF d_ff0(out[0],in[0],rst,clk);  
+ D_FF d_ff1(out[1],in[1],rst,clk);  
+ D_FF d_ff2(out[2],in[2],rst,clk);  
+ D_FF d_ff3(out[3],in[3],rst,clk);  
+ D_FF d_ff4(out[4],in[4],rst,clk);  
+ D_FF d_ff5(out[5],in[5],rst,clk);  
+ D_FF d_ff6(out[6],in[6],rst,clk);  
+ D_FF d_ff7(out[7],in[7],rst,clk);  
+ D_FF d_ff8(out[8],in[8],rst,clk);  
+ D_FF d_ff9(out[9],in[9],rst,clk);  
+ D_FF d_ff10(out[10],in[10],rst,clk);  
+ D_FF d_ff11(out[11],in[11],rst,clk);  
+ D_FF d_ff12(out[12],in[12],rst,clk);  
+ D_FF d_ff13(out[13],in[13],rst,clk);  
+ D_FF d_ff14(out[14],in[14],rst,clk);  
+ D_FF d_ff15(out[15],in[15],rst,clk);  
+ D_FF d_ff16(out[16],in[16],rst,clk);  
+ D_FF d_ff17(out[17],in[17],rst,clk);  
+ D_FF d_ff18(out[18],in[18],rst,clk);  
+ D_FF d_ff19(out[19],in[19],rst,clk);  
+ D_FF d_ff20(out[20],in[20],rst,clk);  
+ D_FF d_ff21(out[21],in[21],rst,clk);  
+ D_FF d_ff22(out[22],in[22],rst,clk);  
+ D_FF d_ff23(out[23],in[23],rst,clk);  
+ D_FF d_ff24(out[24],in[24],rst,clk);  
+ D_FF d_ff25(out[25],in[25],rst,clk);  
+ D_FF d_ff26(out[26],in[26],rst,clk);  
+ D_FF d_ff27(out[27],in[27],rst,clk);  
+ D_FF d_ff28(out[28],in[28],rst,clk);  
+ D_FF d_ff29(out[29],in[29],rst,clk);  
+ D_FF d_ff30(out[30],in[30],rst,clk);  
+ D_FF d_ff31(out[31],in[31],rst,clk);  
  endmodule
 
  `endif
