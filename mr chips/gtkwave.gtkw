@@ -1,0 +1,86 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Mon May 15 21:25:10 2023
+[*]
+[dumpfile] "C:\Users\meira\github-classroom\cooper-union-ece-251-marano\ece-251-spring-2023-final-project-mr-chips\mr chips\mr_chips_tb.vcd"
+[dumpfile_mtime] "Mon May 15 20:16:10 2023"
+[dumpfile_size] 2582
+[savefile] "C:\Users\meira\github-classroom\cooper-union-ece-251-marano\ece-251-spring-2023-final-project-mr-chips\mr chips\gtkwave.gtkw"
+[timestart] 559300000
+[size] 1536 793
+[pos] -139 -139
+*-26.824818 716200000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] mr_chips_tb.
+[treeopen] mr_chips_tb.uut.
+[treeopen] mr_chips_tb.uut.datamem.
+[sst_width] 197
+[signals_width] 198
+[sst_expanded] 1
+[sst_vpaned_height] 221
+@28
+mr_chips_tb.uut.datamem.clk[0]
+@22
+mr_chips_tb.uut.instrucion_memory.instruction[15:0]
+@c00022
+mr_chips_tb.uut.instrucion_memory.pc[15:0]
+@28
+(0)mr_chips_tb.uut.instrucion_memory.pc[15:0]
+(1)mr_chips_tb.uut.instrucion_memory.pc[15:0]
+(2)mr_chips_tb.uut.instrucion_memory.pc[15:0]
+(3)mr_chips_tb.uut.instrucion_memory.pc[15:0]
+(4)mr_chips_tb.uut.instrucion_memory.pc[15:0]
+(5)mr_chips_tb.uut.instrucion_memory.pc[15:0]
+(6)mr_chips_tb.uut.instrucion_memory.pc[15:0]
+(7)mr_chips_tb.uut.instrucion_memory.pc[15:0]
+(8)mr_chips_tb.uut.instrucion_memory.pc[15:0]
+(9)mr_chips_tb.uut.instrucion_memory.pc[15:0]
+(10)mr_chips_tb.uut.instrucion_memory.pc[15:0]
+(11)mr_chips_tb.uut.instrucion_memory.pc[15:0]
+(12)mr_chips_tb.uut.instrucion_memory.pc[15:0]
+(13)mr_chips_tb.uut.instrucion_memory.pc[15:0]
+(14)mr_chips_tb.uut.instrucion_memory.pc[15:0]
+(15)mr_chips_tb.uut.instrucion_memory.pc[15:0]
+@1401200
+-group_end
+@28
+mr_chips_tb.uut.control_unit.opcode[2:0]
+mr_chips_tb.uut.control_unit.branch[0]
+@22
+mr_chips_tb.uut.ALU_Control_unit.Function[3:0]
+@24
+mr_chips_tb.uut.alu_unit.a[15:0]
+mr_chips_tb.uut.alu_unit.b[15:0]
+mr_chips_tb.uut.alu_unit.result[15:0]
+@c00023
+mr_chips_tb.uut.instrucion_memory.rom_addr[3:0]
+@28
+(0)mr_chips_tb.uut.instrucion_memory.rom_addr[3:0]
+(1)mr_chips_tb.uut.instrucion_memory.rom_addr[3:0]
+(2)mr_chips_tb.uut.instrucion_memory.rom_addr[3:0]
+(3)mr_chips_tb.uut.instrucion_memory.rom_addr[3:0]
+@1401201
+-group_end
+@c00024
+[color] 5
++{mr_chips_tb.uut.datamem.mem_write_data[15:0]} mr_chips_tb.uut.datamem.mem_write_data[15:0]
+@28
+(0)mr_chips_tb.uut.datamem.mem_write_data[15:0]
+(1)mr_chips_tb.uut.datamem.mem_write_data[15:0]
+(2)mr_chips_tb.uut.datamem.mem_write_data[15:0]
+(3)mr_chips_tb.uut.datamem.mem_write_data[15:0]
+(4)mr_chips_tb.uut.datamem.mem_write_data[15:0]
+(5)mr_chips_tb.uut.datamem.mem_write_data[15:0]
+(6)mr_chips_tb.uut.datamem.mem_write_data[15:0]
+(7)mr_chips_tb.uut.datamem.mem_write_data[15:0]
+(8)mr_chips_tb.uut.datamem.mem_write_data[15:0]
+(9)mr_chips_tb.uut.datamem.mem_write_data[15:0]
+(10)mr_chips_tb.uut.datamem.mem_write_data[15:0]
+(11)mr_chips_tb.uut.datamem.mem_write_data[15:0]
+(12)mr_chips_tb.uut.datamem.mem_write_data[15:0]
+(13)mr_chips_tb.uut.datamem.mem_write_data[15:0]
+(14)mr_chips_tb.uut.datamem.mem_write_data[15:0]
+(15)mr_chips_tb.uut.datamem.mem_write_data[15:0]
+@1401200
+-group_end
+[pattern_trace] 1
+[pattern_trace] 0
