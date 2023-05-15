@@ -3,10 +3,10 @@
 
 
 # Verilog Project Template
-[Mr Chips Report](https://github.com/cooper-union-ece-251-marano/ece-251-spring-2023-final-project-mr-chips/blob/main/comparch_final_proj_report.pdf)
-```
-[Mr Chips Greencard](https://github.com/cooper-union-ece-251-marano/ece-251-spring-2023-final-project-mr-chips/blob/main/mr_chips_greencard.pdf)
-```
+#[Mr Chips Report](https://github.com/cooper-union-ece-251-marano/ece-251-spring-2023-final-project-mr-chips/blob/main/comparch_final_proj_report.pdf)
+
+#[Mr Chips Greencard](https://github.com/cooper-union-ece-251-marano/ece-251-spring-2023-final-project-mr-chips/blob/main/mr_chips_greencard.pdf)
+
 To compile then simulate:
 ```bash
 make clean compile simulate
