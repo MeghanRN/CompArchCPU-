@@ -44,4 +44,4 @@ display: $(TBOUTPUT)
 	$(VIEWER) $(TBOUTPUT) &
 
 clean:
-	del $(COMPONENT).vvp *.vcd a.out compiler.out
+	/bin/rm -f $(COMPONENT).vvp *.vcd a.out compiler.out
