@@ -3,7 +3,7 @@
 
 
 # Verilog Project Template
-comparch_final_proj_report.pdf
+[comparch_final_proj_report.pdf](https://github.com/cooper-union-ece-251-marano/ece-251-spring-2023-final-project-mr-chips/blob/main/comparch_final_proj_report.pdf)
 
 To compile then simulate:
 ```bash
