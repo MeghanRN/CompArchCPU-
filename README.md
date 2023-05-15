@@ -3,9 +3,10 @@
 
 
 # Verilog Project Template
-#[Mr Chips Report](https://github.com/cooper-union-ece-251-marano/ece-251-spring-2023-final-project-mr-chips/blob/main/comparch_final_proj_report.pdf)
+[Mr Chips Report](https://github.com/cooper-union-ece-251-marano/ece-251-spring-2023-final-project-mr-chips/blob/main/comparch_final_proj_report.pdf)
 
-#[Mr Chips Greencard](https://github.com/cooper-union-ece-251-marano/ece-251-spring-2023-final-project-mr-chips/blob/main/mr_chips_greencard.pdf)
+
+[Mr Chips Greencard](https://github.com/cooper-union-ece-251-marano/ece-251-spring-2023-final-project-mr-chips/blob/main/mr_chips_greencard.pdf)
 
 
 We chose to implement a MIPS architecture because we were most familiar with it from class. At first, we wanted to implement an 8-bit CPU with 8-bit instructions, but this design would not allow for enough instructions. When realizing this, we decided that we should use 16-bit instructions. Somewhere down this line, we decided that we may as well make the ALU operand size 16-bits as well. As the sages say, “good design demands good compromise.”
