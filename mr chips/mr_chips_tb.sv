@@ -30,6 +30,7 @@
            reset = 1;  
            // Wait 100 ns for global reset to finish  
            #100;  
+           
      reset = 0;  
            // Add stimulus here  
                  #1500 $finish;
