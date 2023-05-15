@@ -12,7 +12,7 @@ To disply simulation using GTKWAVE:
 make display
 ```
 
-Then choose "example_tb" as your SST. Highlight "uut" and choose all signals, dragging them to Signal area to right. Once done, got to menu Time -> Zoom -> Zoom Bet Fit.
+Then choose "mr_chips_tb" as your SST. Highlight "uut" and choose all signals, dragging them to Signal area to right. Once done, got to menu Time -> Zoom -> Zoom Bet Fit.
 
 
 To clean up:
