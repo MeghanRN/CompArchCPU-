@@ -3,6 +3,9 @@
 
 
 # Verilog Project Template
+[Fibonacci Youtube Video](https://youtu.be/UCsisGJ7UP8)
+
+
 [Mr Chips Report](https://github.com/cooper-union-ece-251-marano/ece-251-spring-2023-final-project-mr-chips/blob/main/comparch_final_proj_report.pdf)
 
 
