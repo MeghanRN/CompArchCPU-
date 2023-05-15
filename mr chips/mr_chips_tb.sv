@@ -32,7 +32,7 @@
            #100;  
      reset = 0;  
            // Add stimulus here  
-                 #500 $finish;
+                 #1600 $finish;
 
       end  
  endmodule  
