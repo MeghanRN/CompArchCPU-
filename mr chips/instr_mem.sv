@@ -6,15 +6,19 @@ module instr_mem          // a synthesisable rom implementation
       output wire     [15:0]          instruction  
  );  
       wire [3 : 0] rom_addr = pc[4 : 1];  
-     /*    lw     $3, 0($0) --   
-           Loop:     
-           slti $1, $3, 3  
-           beq $1, $0, Skip  
-           add $4, $4, $3   
-           addi $3, $3, 1   
-           beq $0, $0, Loop--  
-           Skip  
- */  
+/*  
+           lw $1,0
+           addi $2, $0, 1
+     loop: stli $4,$1,21
+           beq $4,$0,break
+           add $3, $1, $2
+           add $2, $1, $0
+           add $1, $3, $0
+           sw $2
+           beq $0,$0,loop
+     break
+
+*/  
       reg [15:0] rom[15:0];  
       initial  
       begin  
