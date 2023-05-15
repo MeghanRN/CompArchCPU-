@@ -6,7 +6,7 @@ module instr_mem          // a synthesisable rom implementation
       output wire     [15:0]          instruction  
  );  
       wire [3 : 0] rom_addr = pc[4 : 1];  
-/*  
+/*  fibonnoci code
            lw $1,0
            addi $2, $0, 1
      loop: stli $4,$1,21
